@@ -135,7 +135,9 @@ d. ```p [1, 2, 3, 4].zip([10, 10, 10, 10])```
 
 
 No choice. Correct answer b. 
--------
+
+----
+
 Which one of the programs below produces the following output?
 
 ```"cde" ```
