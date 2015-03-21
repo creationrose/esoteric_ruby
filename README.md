@@ -97,13 +97,13 @@ puts s
 ```
 
 
-a. A number is printed to the standard output
+a. ```A number is printed to the standard output```
 
-b. Nothing happens
+b. ```Nothing happens```
 
-c. The string “BacFacf” is printed to the standard output
+c. ```The string “BacFacf” is printed to the standard output```
 
-d. A “SyntaxError: compile error” occurs
+d. ```A “SyntaxError: compile error” occurs```
 
 
 No idea. I was thinking an error if I had to choose. correct answer is A. 
@@ -111,6 +111,7 @@ No idea. I was thinking an error if I had to choose. correct answer is A.
 On the first line of the program, the literal 0xBacFace is assigned to the variable “s”. The “0x” at the head of the literal indicates that the rest of the literal is to be interpreted by Ruby as an integer in hexadecimal notation. Integers in hexadecimal notation are written using the numbers 0 to 9 and the letters A to F.
 
 Since 0xBacFace is a valid hexadecimal integer, the assignment to “s”, the addition of the integer 1 and the call to the puts method all happen without causing any errors. The hexadecimal value of BacFace corresponds to the decimal number 195885774 and therefore the final output of the program is 195885775.
+
 -----
 
 
@@ -158,11 +159,11 @@ Of the following pieces of code, which one finishes execution without any errors
 
 a. ``` 10.+(“10”)```
 
-b. Time.now.strftime(1999, 12, 11)
+b. ```Time.now.strftime(1999, 12, 11)```
 
-c. 1..10.to_s
+c. ```1..10.to_s```
 
-d. 10.*(0xFace)
+d. ```10.*(0xFace)```
 
 
 Correct answer D. The 0xFace literal expresses an integer value in hexadecimal notation, so the code 10.*(0xFace)  simply multiplies two integers and completes without errors.
@@ -184,7 +185,7 @@ Dir.rmdir("python")
 
 ```
 
-Answer: 4 are created, 4 remain
+Answer: ```4 are created, 4 remain```
 
 ------
 
@@ -216,4 +217,4 @@ More problems found at:
 
 http://www.minituku.net/drills?locale=en
 
-Most of it is in Japanese but since this is about code, I guess it should matter. Many interesting exercises I have not seen before. 
+Most of it is in Japanese but since this is about code, I guess it should not matter. Many interesting exercises I have not seen before. 
